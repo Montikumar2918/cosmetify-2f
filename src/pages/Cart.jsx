@@ -178,14 +178,14 @@ const Cart = () => {
                 <div>
                   {user.currentUser ? (
                     <StripeCheckout
-                      name="MakeYouUp"
+                      name="COSMETIFY"
                       image="https://source.unsplash.com/yd3mg93Smn8"
                       billingAddress
                       shippingAddress
                       description={`Your Cart Total is $ ${cart.total}`}
                       amount={cart.total * 100}
                       token={onToken}
-                      stripeKey="pk_test_51Jx2WuSG7y1nLb4U9u9WivGzguKP1yPcnIMNrkXBAs7Hi4JiHfVYbETDhDDYUsoU3ZoGh7twA468JIIvhcPgizPd00E0HW7iaS"
+                      stripeKey="pk_test_51Jz1wjSF5w0ElE0kLuqf5fRpuFEN7AEioeqcxosMmtlSh1Ur0aiVXE1bOrttebU3GE1QsGySQcG8KThOqxD4Ry5H00kFpEMtJm"
                     >
                       <Button>Checkout</Button>
                     </StripeCheckout>
@@ -237,3 +237,4 @@ const Cart = () => {
 };
 
 export default Cart;
+

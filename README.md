@@ -1,4 +1,4 @@
-deploy link:-https://happy-hopper-71390f.netlify.app/
+deploy link:-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
